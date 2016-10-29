@@ -1,0 +1,43 @@
+QTabWidget::pane {
+    border: 1px solid #8696AA;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                      stop: 0 #EDF4FC, stop: 0.15 #D9E4F1);
+}
+
+QGroupBox {
+    border: 1px solid #8696AA;
+    border-radius: 2px;
+    margin-top: 3ex;
+}
+
+QGroupBox::title {
+    top: -0.5em;
+    left: 0.5em;
+    subcontrol-origin: border;
+    subcontrol-position: 10px 0 0 10px;
+    padding: 0 0px;
+    color: #1E395B;
+}
+
+QLabel {
+    color: #1E395B;
+}
+
+QPushButton {
+    border: 1px solid #8E9CAD;
+    border-radius: 2px;
+    color: #1E395B;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #F0F6FB, stop: 0.495 #E2EAF3, stop: 0.496 #D5E0EE, stop: 1 #D7E2EF);
+}
+
+QPushButton:pressed {
+    background-color: #B0DBED;
+}
+
+QLineEdit {
+    border: 1px solid #8696AA;
+    border-radius: 2px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                      stop: 0 #E5EEFB, stop: 1 #FFFFFF);
+}
