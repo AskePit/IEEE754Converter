@@ -1,9 +1,11 @@
 #include <QApplication>
+#include <QStyleFactory>
 #include <QFile>
 #include "gui.h"
 
 int main(int argc, char *argv[])
 {
+    QApplication::setStyle(QStyleFactory::create(QStringLiteral("Fusion")));
     QApplication a(argc, argv);
 
     QFile stylesheet(":/style.qss");
